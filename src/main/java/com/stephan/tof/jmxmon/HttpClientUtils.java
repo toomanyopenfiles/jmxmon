@@ -13,12 +13,10 @@ import org.slf4j.LoggerFactory;
 
 /**
  * update httpclient to HttpUrlConnection<br>
+ * 
  * @since 2015-08-17 <br>
  * @author stevenDing <br>
  * 
- * java -Xmx64m -Xms64m -cp data-metrics-client-2.1.1-jar-with-dependencies.jar  com/youku/data/metrics/httpclient/HttpClientUtils <br>
- * jmap -dump:format=b,file=xxx $pid <br>
- *
  */
 public class HttpClientUtils {
 
