@@ -1,0 +1,8 @@
+/target/
+/.settings
+/.project
+/.classpath
+/coverage-report
+/test.jvmcontext.json
+/jmxmon.jvm.context.json
+/test.falconPostData.json
