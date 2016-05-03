@@ -10,7 +10,7 @@ import com.fasterxml.jackson.databind.annotation.JsonSerialize;
  * "timestamp": $ts, "step": 60, "value": 9, "counterType": "GAUGE", "tags":
  * "project=falcon,module=judge" }
  * 
- * @author gaosong
+ * @author Stephan gao
  * @since 2016年4月28日
  *
  */
