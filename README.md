@@ -2,7 +2,16 @@
 jmxmon是一个基于open-falcon的jmx监控插件，通过这个插件，结合open-falcon agent，可以采集任何开启了JMX服务端口的java进程的服务状态，并将采集信息自动上报给open-falcon服务端
 
 ## 主要功能
-通过jmx采集java进程的内存、gc、线程等信息。对应用程序无侵入，几乎不占用系统资源。
+
+通过jmx采集java进程的jvm信息，包括gc耗时、gc次数、gc吞吐、老生代使用率、新生代晋升大小、活跃线程数等信息。
+
+对应用程序代码无侵入，几乎不占用系统资源。
+
+## 环境需求
+Linux
+JDK>=1.6
+Open-Falcon
+目标java进程开启jmx端口
 
 ## jmxmon部署
 
