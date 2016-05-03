@@ -8,9 +8,13 @@ jmxmon是一个基于open-falcon的jmx监控插件，通过这个插件，结合
 对应用程序代码无侵入，几乎不占用系统资源。
 
 ## 环境需求
+
 Linux
+
 JDK>=1.6
+
 Open-Falcon
+
 目标java进程开启jmx端口
 
 ## jmxmon部署
