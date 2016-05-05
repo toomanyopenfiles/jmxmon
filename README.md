@@ -27,7 +27,7 @@ Open-Falcon>=0.0.5
 6. sh control tail查看日志，或者cat var/app.log以确认程序是否正常启动	
 
 ## 配置说明
-配置文件路径为传递给jmxmon程序的唯一一个参数，配置文件内容说明如下：
+配置文件默认文件名为conf.properties，内容说明如下：
 
     # 工作目录用来存放jmxmon的临时缓存文件，注意不要修改此目录下的文件
     workDir=./
