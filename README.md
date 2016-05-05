@@ -19,9 +19,12 @@ Open-Falcon>=0.0.5
 
 ## jmxmon部署
 
-1. aaa
-2. bbb
-3. ccc
+1. 安装并启动open-falcon agent
+2. 下载并解压编译好的 [release包](https://github.com/toomanyopenfiles/jmxmon/releases/download/v0.0.2/jmxmon-v0.0.2.tar.gz) 到目标安装目录下
+3. cp conf.example.properties conf.properties
+4. 修改conf.properties配置文件，一般情况下只需要将jmx.ports的端口号配置上就可以了
+5. sh control start
+6. sh control tail查看日志，或者cat var/app.log以确认程序是否正常启动	
 
 ## 配置说明
 配置文件路径为传递给jmxmon程序的唯一一个参数，配置文件内容说明如下：
